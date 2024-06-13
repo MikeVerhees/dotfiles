@@ -107,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+alias clearproj='find . -iname "bin" -o -iname "obj" | xargs rm -rf'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 [ -s "/Users/mike/.scm_breeze/scm_breeze.sh" ] && source "/Users/mike/.scm_breeze/scm_breeze.sh"
