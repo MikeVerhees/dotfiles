@@ -11,12 +11,8 @@ return {
     end,
   },
   {
-    "EthanJWright/vs-tasks.nvim",
-    dependencies = {
-      "nvim-lua/popup.nvim",
-      "nvim-lua/plenary.nvim",
-      "nvim-telescope/telescope.nvim",
-    },
+    "stevearc/overseer.nvim",
+    opts = {},
   },
   {
     "nvim-treesitter/nvim-treesitter",
