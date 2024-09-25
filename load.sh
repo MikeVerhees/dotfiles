@@ -1,2 +1,2 @@
-cp -a ./nvim /Users/mike/.config/
-cp ./.zshrc /Users/mike/
+ln -sfn ~/Projects/Dotfiles/nvim ~/.config
+ln -sfn ~/Projects/Dotfiles/.zshrc ~/.zshrc
