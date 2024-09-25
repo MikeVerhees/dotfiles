@@ -1,24 +1,45 @@
 return {
   {
     "stevearc/conform.nvim",
-    -- event = 'BufWritePre', -- uncomment for format on save
+    event = "BufWritePre", --format on save
     opts = require "configs.conform",
   },
-
-  -- These are some examples, uncomment them if you want to see them work!
   {
     "neovim/nvim-lspconfig",
     config = function()
       require "configs.lspconfig"
     end,
   },
-
+  {
+    "EthanJWright/vs-tasks.nvim",
+    dependencies = {
+      "nvim-lua/popup.nvim",
+      "nvim-lua/plenary.nvim",
+      "nvim-telescope/telescope.nvim",
+    },
+  },
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
-      "vim", "lua", "vimdoc", "html", "css", "markdown", "typescript", "angular", "javascript", "json", "dart", "regex", "python", "rust", "toml", "yaml", "xml"
-  	  },
+        "vim",
+        "lua",
+        "vimdoc",
+        "html",
+        "css",
+        "markdown",
+        "typescript",
+        "angular",
+        "javascript",
+        "json",
+        "dart",
+        "regex",
+        "python",
+        "rust",
+        "toml",
+        "yaml",
+        "xml",
+      },
     },
   },
 }
