@@ -24,7 +24,6 @@ zsh-autosuggestions
 zsh-syntax-highlighting
 macos
 rust
-vscode
 zoxide)
 
 source $ZSH/oh-my-zsh.sh
