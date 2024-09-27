@@ -9,7 +9,7 @@ return {
   },
   cmd = 'Nvimtree',
   keys = {
-    { '\\', ':NvimTreeToggle<CR>', desc = 'Open filetree', silent = true },
+    { '\\', ':NvimTreeFocus<CR>', desc = 'Focus filetree', silent = true },
   },
   opts = {
     filters = { dotfiles = false },
