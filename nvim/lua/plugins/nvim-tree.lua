@@ -19,12 +19,5 @@ return {
       root_folder_label = false,
       highlight_git = true,
     },
-    filesystem = {
-      window = {
-        mappings = {
-          ['\\'] = 'close_window',
-        },
-      },
-    },
   },
 }
