@@ -11,6 +11,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 
 # https://github.com/zsh-users/zsh-completions/issues/603
+FPATH+="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 
 # Which plugins would you like to load?
