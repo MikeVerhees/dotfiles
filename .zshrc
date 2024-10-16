@@ -35,6 +35,10 @@ source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
+#
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -53,6 +57,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias clearproj='find . -iname "bin" -o -iname "obj" | xargs rm -rf'
+alias purgedotnet='sudo rm -rf /usr/local/share/dotnet/'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 [ -s "/Users/mike/.scm_breeze/scm_breeze.sh" ] && source "/Users/mike/.scm_breeze/scm_breeze.sh"
