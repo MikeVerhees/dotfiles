@@ -6,7 +6,7 @@ Welcome to my dotfiles and related settings! this repo features:
 
 ## Installing
 ### zsh and neovim
-load.sh will symlink nvim and .zshrc configs into their default locations, make sure the repo path is correct, then run:
+load.sh will symlink configs into their default locations, make sure the repo path is correct, then run:
 ```bash load.sh```
 
 ### iTerm
