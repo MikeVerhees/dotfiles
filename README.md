@@ -8,6 +8,3 @@ Welcome to my dotfiles and related settings! this repo features:
 ### zsh and neovim
 load.sh will symlink configs into their default locations, make sure the repo path is correct, then run:
 ```bash load.sh```
-
-### iTerm
-in iTerm settings, find "load settings from custom folder or URL" and select the iterm folder with it's plist
