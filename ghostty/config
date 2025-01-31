@@ -1,3 +1,4 @@
+theme = "tokyonight"
 background-opacity = 0.90
 background-blur-radius = 20
 keybind = global:cmd+grave_accent=toggle_quick_terminal
