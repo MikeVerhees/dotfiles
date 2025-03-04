@@ -1,4 +1,29 @@
-theme = "tokyonight"
 background-opacity = 0.90
 background-blur-radius = 20
 keybind = global:cmd+grave_accent=toggle_quick_terminal
+
+bold-is-bright = true
+
+palette = 0=#282828
+palette = 1=#E12820
+palette = 2=#C2D900
+palette = 3=#DA9D3C
+palette = 4=#3483B3
+palette = 5=#BC5E8B
+palette = 6=#35B66A
+palette = 7=#B3A28B
+palette = 8=#96826E
+palette = 9=#FF4C37
+palette = 10=#FCE34B
+palette = 11=#FFA035
+palette = 12=#3BA3F9
+palette = 13=#F99ECE
+palette = 14=#62CF8F
+palette = 15=#EBD7B2
+background = #292928
+foreground = #EBD7B2
+selection-background = #7E6E61
+selection-foreground = #EBD7B2
+cursor-color = #EBD7B2
+cursor-text = #282828
+
