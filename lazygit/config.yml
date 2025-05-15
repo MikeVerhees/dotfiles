@@ -1,5 +1,4 @@
 git:
-  autoFetch: false
 customCommands:
   - key: b
     command: tig blame -- {{.SelectedFile.Name}}
