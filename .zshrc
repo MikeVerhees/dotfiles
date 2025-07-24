@@ -18,10 +18,10 @@ fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
 starship
+zoxide
 zsh-autosuggestions
 zsh-syntax-highlighting
-rust
-zoxide)
+)
 
 source $ZSH/oh-my-zsh.sh
 
